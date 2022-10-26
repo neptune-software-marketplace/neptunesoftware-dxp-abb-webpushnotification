@@ -1,7 +1,9 @@
 {
-	"id": "517086a3-0cdd-ec11-b656-a085fcbcb3c7",
-	"createdAt": "2022-05-26T15:58:47.173Z",
-	"createdBy": "daniel.vieira@neptune-software.com",
+	"id": "645a497f-0155-ed11-ade6-000d3ab237df",
+	"createdAt": "2022-10-26T07:40:47.626Z",
+	"updatedAt": "2022-10-26T07:41:14.946Z",
+	"createdBy": "lloyd.trevarthen@neptune-software.com",
+	"changedBy": "lloyd.trevarthen@neptune-software.com",
 	"objects": [
 		{
 			"fieldNo": "4d54457b-9119-4735-be86-f2e2f0829a06",
@@ -9,7 +11,6 @@
 			"fieldParent": 0,
 			"fieldType": "sap.m.Shell",
 			"script": "",
-			"customComponent": false,
 			"request": [],
 			"response": [],
 			"attributes": [],
@@ -20,7 +21,6 @@
 					"fieldParent": "4d54457b-9119-4735-be86-f2e2f0829a06",
 					"fieldType": "sap.m.App",
 					"script": "",
-					"customComponent": false,
 					"request": [],
 					"response": [],
 					"attributes": [],
@@ -31,7 +31,6 @@
 							"fieldParent": "53a80859-f752-4883-e693-5f0ebd726b3d",
 							"fieldType": "sap.m.Page",
 							"script": "",
-							"customComponent": false,
 							"request": [],
 							"response": [],
 							"attributes": [
@@ -50,7 +49,6 @@
 									"fieldParent": "2d7f0d22-8f0a-4fac-a0cb-41329e1ac476",
 									"fieldType": "sap.ui.layout.form.SimpleForm",
 									"script": "",
-									"customComponent": false,
 									"request": [],
 									"response": [],
 									"attributes": [
@@ -83,7 +81,6 @@
 											"fieldParent": "a5ea929c-f4b2-45e8-dcc5-8a33a75cee07",
 											"fieldType": "sap.m.VBox",
 											"script": "",
-											"customComponent": false,
 											"request": [],
 											"response": [],
 											"attributes": [],
@@ -94,7 +91,6 @@
 													"fieldParent": "996f6f87-f470-4071-a5e5-c7279cba2af5",
 													"fieldType": "sap.m.HBox",
 													"script": "",
-													"customComponent": false,
 													"request": [],
 													"response": [],
 													"attributes": [],
@@ -105,7 +101,6 @@
 															"fieldParent": "35e805af-99ee-408b-83b4-e6a1f696e7bd",
 															"fieldType": "sap.m.Label",
 															"script": "",
-															"customComponent": false,
 															"request": [],
 															"response": [],
 															"attributes": [
@@ -134,7 +129,6 @@
 													"fieldParent": "996f6f87-f470-4071-a5e5-c7279cba2af5",
 													"fieldType": "sap.m.HBox",
 													"script": "",
-													"customComponent": false,
 													"request": [],
 													"response": [],
 													"attributes": [],
@@ -145,7 +139,6 @@
 															"fieldParent": "0f867c01-b0c7-410d-b073-2fb2d80270a1",
 															"fieldType": "sap.m.Input",
 															"script": "",
-															"customComponent": false,
 															"request": [],
 															"response": [],
 															"attributes": [
@@ -165,7 +158,6 @@
 															"fieldParent": "0f867c01-b0c7-410d-b073-2fb2d80270a1",
 															"fieldType": "sap.m.HBox",
 															"script": "",
-															"customComponent": false,
 															"request": [],
 															"response": [],
 															"attributes": [
@@ -184,7 +176,6 @@
 																	"fieldParent": "8c1f52f6-4e77-4eae-98c0-03bb6708a926",
 																	"fieldType": "sap.m.Input",
 																	"script": "",
-																	"customComponent": false,
 																	"request": [],
 																	"response": [],
 																	"attributes": [
@@ -208,7 +199,6 @@
 													"fieldParent": "996f6f87-f470-4071-a5e5-c7279cba2af5",
 													"fieldType": "sap.m.HBox",
 													"script": "",
-													"customComponent": false,
 													"request": [],
 													"response": [],
 													"attributes": [
@@ -227,7 +217,6 @@
 															"fieldParent": "39c3e82c-e91a-41f6-d2e7-10158d1a0f7d",
 															"fieldType": "sap.m.Label",
 															"script": "",
-															"customComponent": false,
 															"request": [],
 															"response": [],
 															"attributes": [
@@ -254,7 +243,6 @@
 															"fieldParent": "39c3e82c-e91a-41f6-d2e7-10158d1a0f7d",
 															"fieldType": "sap.m.HBox",
 															"script": "",
-															"customComponent": false,
 															"request": [],
 															"response": [],
 															"attributes": [
@@ -273,7 +261,6 @@
 																	"fieldParent": "95539755-4ac8-4626-d691-7cf8a784ba50",
 																	"fieldType": "sap.m.Label",
 																	"script": "",
-																	"customComponent": false,
 																	"request": [],
 																	"response": [],
 																	"attributes": [
@@ -304,7 +291,6 @@
 													"fieldParent": "996f6f87-f470-4071-a5e5-c7279cba2af5",
 													"fieldType": "sap.m.HBox",
 													"script": "",
-													"customComponent": false,
 													"request": [],
 													"response": [],
 													"attributes": [],
@@ -315,7 +301,6 @@
 															"fieldParent": "45837cd9-6ccd-433f-c47c-f78b6f27591d",
 															"fieldType": "sap.m.Input",
 															"script": "",
-															"customComponent": false,
 															"request": [],
 															"response": [],
 															"attributes": [],
@@ -327,7 +312,6 @@
 															"fieldParent": "45837cd9-6ccd-433f-c47c-f78b6f27591d",
 															"fieldType": "sap.m.HBox",
 															"script": "",
-															"customComponent": false,
 															"request": [],
 															"response": [],
 															"attributes": [
@@ -346,7 +330,6 @@
 																	"fieldParent": "e82e52f3-6637-4e94-c26f-1399b45c7c05",
 																	"fieldType": "sap.m.Select",
 																	"script": "",
-																	"customComponent": false,
 																	"bindingValue": "Generic Array",
 																	"bindingType": "h",
 																	"bindingSource": "P9",
@@ -365,7 +348,6 @@
 													"fieldParent": "996f6f87-f470-4071-a5e5-c7279cba2af5",
 													"fieldType": "sap.m.HBox",
 													"script": "",
-													"customComponent": false,
 													"request": [],
 													"response": [],
 													"attributes": [
@@ -384,7 +366,6 @@
 															"fieldParent": "7f217caa-cd08-43b1-9148-e8da66179f55",
 															"fieldType": "sap.m.Button",
 															"script": "",
-															"customComponent": false,
 															"request": [],
 															"response": [],
 															"attributes": [
@@ -486,7 +467,6 @@
 					"fieldParent": 99999,
 					"fieldType": "sap.m.Image",
 					"script": "",
-					"customComponent": false,
 					"request": [],
 					"response": [],
 					"attributes": [
@@ -510,7 +490,6 @@
 						"Move the push.min.js File into the Resources of your app!",
 						"(Note: This will only work when running the app in the App Designer)"
 					],
-					"customComponent": false,
 					"request": [],
 					"response": [],
 					"attributes": [],
@@ -564,7 +543,6 @@
 						"//# sourceMappingURL=push.min.js.map",
 						""
 					],
-					"customComponent": false,
 					"request": [],
 					"response": [],
 					"attributes": [],
@@ -618,7 +596,6 @@
 						"    }, 200);\r",
 						"});"
 					],
-					"customComponent": false,
 					"request": [],
 					"response": [],
 					"attributes": [],
@@ -631,8 +608,8 @@
 			"data": []
 		}
 	],
-	"ver": "22.8.8.1110",
-	"application": "hackathon_web_push_notification",
+	"ver": "22.10.26.941",
+	"application": "push_notifications_web",
 	"title": "",
 	"description": "",
 	"enableFileStorage": false,
@@ -643,7 +620,7 @@
 	"disabled": false,
 	"loadLaunchpadCode": null,
 	"loadApplicationCode": null,
-	"appType": "C",
+	"appType": "",
 	"ui5_m": true,
 	"ui5_f": false,
 	"ui5_table": false,
@@ -677,9 +654,5 @@
 	"libHighmap": false,
 	"publicAccess": false,
 	"ui5_bootstrap": false,
-	"ui5_ionic": false,
-	"useV2AppHandler": false,
-	"compilerTarget": 3,
-	"apis": [],
-	"package": "A4399DE4-F916-ED11-BD6E-A085FCBC6CDC"
+	"apis": []
 }

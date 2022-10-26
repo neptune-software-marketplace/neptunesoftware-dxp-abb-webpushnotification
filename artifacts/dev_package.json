@@ -40,15 +40,16 @@
 	"enableCICD": true,
 	"apps": [
 		{
-			"id": "517086A3-0CDD-EC11-B656-A085FCBCB3C7",
-			"application": "hackathon_web_push_notification",
+			"id": "645A497F-0155-ED11-ADE6-000D3AB237DF",
+			"ver": "22.10.26.941",
+			"application": "push_notifications_web",
 			"title": "",
 			"description": ""
 		}
 	],
 	"api": [],
-	"odataSource": [],
 	"odataMock": [],
+	"odataSource": [],
 	"dictionary": [],
 	"jsclass": [],
 	"jsscript_group": [],
@@ -66,8 +67,8 @@
 	"systems": [],
 	"doc": [],
 	"wf_notifications": [],
+	"wf_definition": [],
 	"department": [],
 	"script_scheduler": [],
-	"wf_definition": [],
 	"connector": []
 }

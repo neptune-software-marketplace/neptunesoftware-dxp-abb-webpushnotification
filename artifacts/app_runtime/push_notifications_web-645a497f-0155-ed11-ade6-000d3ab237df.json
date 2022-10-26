@@ -1,7 +1,7 @@
 {
 	"id": "645a497f-0155-ed11-ade6-000d3ab237df",
 	"createdAt": "2022-10-26T07:40:47.626Z",
-	"updatedAt": "2022-10-26T07:41:14.946Z",
+	"updatedAt": "2022-10-26T07:45:07.043Z",
 	"createdBy": "lloyd.trevarthen@neptune-software.com",
 	"changedBy": "lloyd.trevarthen@neptune-software.com",
 	"objects": [
@@ -481,21 +481,6 @@
 					"data": []
 				},
 				{
-					"fieldNo": "a0895798-297c-42b5-ef38-588312fc4e24",
-					"fieldName": "WhatToInclude",
-					"fieldParent": 99999,
-					"fieldType": "neptune.Text",
-					"script": [
-						"==OBJECT STRING==",
-						"Move the push.min.js File into the Resources of your app!",
-						"(Note: This will only work when running the app in the App Designer)"
-					],
-					"request": [],
-					"response": [],
-					"attributes": [],
-					"data": []
-				},
-				{
 					"fieldNo": "df494c4b-9498-4f9a-e8eb-9b9dc42052c7",
 					"fieldName": "push.min.js",
 					"fieldParent": 99999,
@@ -608,7 +593,7 @@
 			"data": []
 		}
 	],
-	"ver": "22.10.26.941",
+	"ver": "22.10.26.945",
 	"application": "push_notifications_web",
 	"title": "",
 	"description": "",

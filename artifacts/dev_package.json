@@ -36,12 +36,12 @@
 	},
 	"name": "neptunesoftware-dxp-abb-webpushnotification",
 	"description": null,
-	"ver": "22.8.8.911",
+	"ver": "22.10.26.742",
 	"enableCICD": true,
 	"apps": [
 		{
 			"id": "645A497F-0155-ED11-ADE6-000D3AB237DF",
-			"ver": "22.10.26.941",
+			"ver": "22.10.26.945",
 			"application": "push_notifications_web",
 			"title": "",
 			"description": ""

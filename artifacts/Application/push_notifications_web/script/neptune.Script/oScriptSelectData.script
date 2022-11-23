@@ -1,0 +1,40 @@
+sap.ui.getCore().attachInit(function (data) {
+    setTimeout(function () {
+
+//Creating the array of data that will be displayed in the oSelectTicketType
+        var ticketData = [{
+            ticketID: "VIP",
+            price: "75.00$"
+        }, {
+            ticketID: "Lower Level",
+            price: "50.00$"
+        }, {
+            ticketID: "Upper Level",
+            price: "30.00$"
+        }]
+//------------------------------------------------------------------------
+
+        console.log(ticketData);
+
+        oSelectTicketType.destroyItems();
+
+//This adds an empty line in the oSelectTicketType
+//It's generally used when you want to give the user an empty selection option
+        oSelectTicketType.addItem(new sap.ui.core.Item({
+            key: "",
+            text: ""
+        }));
+//------------------------------------------------------------------------
+
+//Since the array ticketData is created with 3 distinct options, 
+//we want to display it in the oSelectTicketType.
+//In order to do this, we need to loop that data and add it to the oSelectTicketType
+        for (i = 0; i < ticketData.length; i++) {
+            oSelectTicketType.addItem(new sap.ui.core.Item({
+                key: ticketData[i].ticketID,
+                text: ticketData[i].ticketID + " - " + ticketData[i].price
+            }));
+        }
+//------------------------------------------------------------------------
+    }, 200);
+});

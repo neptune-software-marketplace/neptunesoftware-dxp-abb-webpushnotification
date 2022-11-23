@@ -1,0 +1,56 @@
+const ticketOrder = "Ticket Sale";
+
+//Getting the values of the input fields
+var getFirstName = oInputFirstName.getValue();
+console.log(getFirstName);
+
+var getLastName = oInputLastName.getValue();
+console.log(getLastName);
+
+var getSelectedTicketID = oSelectTicketType.getSelectedKey();
+console.log(getSelectedTicketID);
+
+var getSelectedTicketText = oSelectTicketType.getSelectedItem().getText();
+console.log(getSelectedTicketText);
+
+var getNameOnTicket = oInputNameOnTicket.getValue();
+console.log(getNameOnTicket);
+//---------------------------------------
+
+// Create a Push Notification
+// To show a different Header text change the "Hello world!" to something else
+// The body content and the icon can be modified aswell 
+// make sure to upload an image for the icon if you wish to change it
+// The timeout can also be longer or shorter, for now it's 4000 milliseconds
+
+// This is a simple way to create a push notification message
+
+// Push.create("Hello world!", {
+//     body: "Neptune Software",
+//     icon: oImage.getSrc(),
+//     timeout: 4000,
+//     onClick: function () {
+//         window.focus();
+//         this.close();
+//     }
+// });
+
+// This is a more complex way to create a push notification message
+// To change the Icon, set the image source to any type of base 64. 
+// You can use online converters to upload an image and convert it to base 64,
+// then set the base 64 image string as the image source. 
+// If you prefer, bind the image data as an expression binding, 
+// check the oImage property "src" under Resources
+
+Push.create(ticketOrder, {
+    body: "Dear " + getFirstName + " " + getLastName + "\n" +
+        "You have placed an order for the ticket " + getSelectedTicketText + " " + "with the name " + getNameOnTicket + " " + "successfully",
+    icon: oImage.getSrc(),    
+    timeout: 4000,
+    onClick: function () {
+        window.focus();
+        this.close();
+    }
+});
+
+//---------------------------------------------------------------------//

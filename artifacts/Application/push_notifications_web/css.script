@@ -1,0 +1,12 @@
+.flexBoxWebPushNotification {
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.simpleformPushNotification .sapUiForm .sapUiFormTitle {
+    border-color: #d9d9d900;
+}
+
+.ticketType{
+    margin-left: 95px;
+}
